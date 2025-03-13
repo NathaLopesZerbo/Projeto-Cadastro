@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+@layer base{
+    body{
+        font-family: "Poppins", sans-serif;
+        background: rgb(54,52,103);
+        background: linear-gradient(180deg, rgba(54,52,103,1) 36%, rgba(70,66,148,1) 90%);
+        min-height: 100vh;
+    }
+
+    .bg-form{
+        background-color: #2E2D4E;
+    }
+
+    .bg-button-cadastrar{
+        background-color: #8B8AE1;
+    }
+
+    input{
+        border: 1px solid #48456c;
+        border-radius: 10px;
+        background-color: #363653;
+        color: #fff;
+        font-size: 16px;
+        outline: none;
+        padding: 7px;
+    }
+
+    p{
+        color: #fff;
+        font-weight: bold;
+
+        & span{
+            font-weight: normal;
+        }
+    }
+
+}
