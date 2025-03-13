@@ -5,8 +5,10 @@ function Home() {
  
 
   return (
-    <div>
-      <h1>Olá React</h1>
+    <div className="">
+      <form action="">
+        <h1>Cadastro de Usuário</h1>
+      </form>
     </div>
   )
 }
