@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
@@ -40,5 +42,5 @@
   "bugs": {
     "url": "https://github.com/NathaLopesZerbo/Projeto-Cadastro/issues"
   },
-  "homepage": "https://github.com/NathaLopesZerbo/Projeto-Cadastro#readme"
+  "homepage": "https://github.com/NathaLopesZerbo/Projeto-Cadastro/"
 }
