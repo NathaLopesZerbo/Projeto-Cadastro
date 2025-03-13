@@ -1,4 +1,5 @@
 {
+  "homepage": "https://NathaLopesZerbo.github.io/Projeto-Cadastro",
   "name": "projeto-cadastro",
   "private": true,
   "version": "0.0.0",
@@ -41,6 +42,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NathaLopesZerbo/Projeto-Cadastro/issues"
-  },
-  "homepage": "https://github.com/NathaLopesZerbo/Projeto-Cadastro/"
+  }
 }
